@@ -3,3 +3,4 @@ httpx==0.22.0
 fastapi==0.83
 uvicorn==0.15
 tenacity==8.2.2
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
